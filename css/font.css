@@ -1,0 +1,24 @@
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+}
+
+p{
+    font-family: 'Satisfy', cursive;
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+}
+
+.light_section,
+.main .light_section,
+div[class*="_section"] .light_section,
+section[class*="_section"] .light_section,
+section[class*="_section"] div[class*="_section"] .light_section {
+  background-color: #f4f4f4;
+  color: #323232;
+}
