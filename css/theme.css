@@ -150,8 +150,9 @@ body {
 }
 
 .logo-mobile{
-  width:9%;
+  width:28%;
   margin:8px;
+  margin-top: -34px;
 }
 @media (min-width: 992px) {
   body {
@@ -438,7 +439,7 @@ header.sticked {
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
     border-radius: 100%;
-    background-color: #692716;
+    background-color: #ffffffa6;
     width: 90px;
     height: 93px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -633,7 +634,7 @@ nav.navigation-main .navigation-block ul li > ul li a {
     bottom: 0;
     left: 50%;
     width: 150px;
-    height: 113px;
+    height: 150px;
     z-index: 9;
   }
   nav.navigation-main .logo img {
@@ -1308,26 +1309,26 @@ section {
   padding-bottom: 35px;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   section {
     padding-top: 40px;
     padding-bottom: 40px;
   }
-}
+}*/
 
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
   section {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-}
+}*/
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   section {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-}
+}*/
 
 /*  
     ----------------------------------
@@ -2759,7 +2760,7 @@ section {
   -o-transform: scale(1.8);
   -webkit-transform: scale(1.8);
   transform: scale(1.8);
-  background-color: #002639;
+  background-color: #b49e3b;
 }
 
 .facilities .facilities-wrapper figure:hover .title {
